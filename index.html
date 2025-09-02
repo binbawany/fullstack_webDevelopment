@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This HTML Page</title>
+    <style>
+        table, th, td {
+            border: 1px solid red;
+            border-collapse: collapse;
+            width: 70%;
+            height: 7px;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>This is my first Heading</h1>
@@ -44,18 +54,18 @@
     <iframe width="300" height="200" src="https://www.youtube.com/embed/iCqhOuaItDE" frameborder="0">Our Video</iframe>
 
     <h2>Our Students</h2>
-    <div class="">    <ul style="list-style: none;">
+    <div class="">    <ul style="list-style: circle; list-style-position: outside;">
         <li>Muzzammil</li>
         <li>Muhammad</li>
         <li>Usman</li>
     </ul>
     <h2>how to become a full stack</h2>
-    <ol>
+    <ol style="list-style-type: lower-greek;">
         <li>Frontend</li>
         <li>Backend</li>
         <li>Database</li>
     </ol>
-    <dl>
+    <dl style="list-style-position: inside;">
         <dt>Muzzammil</dt>
         <dd>He is Fullstack and Cyber Security Guy.</dd>
         <dt>Muhammad</dt>
@@ -63,7 +73,7 @@
     </dl>
     </div>
 
-    <div id="table">
+    <div>
         <table>
         <tr>
            <th>S.No</th>
