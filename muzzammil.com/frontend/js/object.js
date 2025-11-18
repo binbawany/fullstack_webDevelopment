@@ -50,8 +50,8 @@ let person2 = new newPerson("Ahmed", "Raza", 25, "black", "English");
 
 //8
 const rectangle = {
-    width: 20,
-    height: 10,
+    width: 20, //properties
+    height: 10, //propserties
     area: function() { //this is called method
         return this.width * this.height;
     }
