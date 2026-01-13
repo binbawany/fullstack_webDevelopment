@@ -8,6 +8,7 @@ CREATE DATABASE myfirstdb;
 
 -- Use the newly created database
 USE myfirstdb;
+\c myfirstdb;
 
 -- Create a new table named 'users' with columns for id, name, and email
 CREATE TABLE users (
