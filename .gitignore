@@ -1,6 +1,10 @@
 env
 /env
 
+denv
+/ENV
+/Env
+/venv/
 /fullenv
 /.venv
 /venv
