@@ -28,3 +28,14 @@ print("Hello, welcome to Django introduction!")
 #http request -> response cycle in django
 #HTTP is stand for Hypertext Transfer Protocol
 #HTTP is a protocol used for communication between web servers and clients (browsers)
+
+#startproject
+#startapp
+#createenvironment
+#activateenvironment
+#views.py
+#settings.py
+#makemigrations
+#migrate
+#urls.py
+#python3 manage.py 
