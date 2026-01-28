@@ -39,3 +39,19 @@ print("Hello, welcome to Django introduction!")
 #migrate
 #urls.py
 #python3 manage.py 
+
+#CRUD operations by API in Django
+#CRUD stands for Create, Read, Update, and Delete
+#CRUD operations are the basic operations that can be performed on data in a database
+#API stands for Application Programming Interface
+#An API is a set of protocols and tools that allow different software applications to communicate with each other
+#how many types of APIs are there?
+#There are several types of APIs, including:
+#1. REST APIs (Representational State Transfer)
+#2. SOAP APIs (Simple Object Access Protocol)
+#3. GraphQL APIs        
+#In Django, CRUD operations can be performed using the Django REST framework (DRF)
+#Django REST framework is a powerful and flexible toolkit for building Web APIs in Django
+#With DRF, you can easily create API endpoints that allow clients to perform CRUD operations on your Django models
+#To perform CRUD operations using DRF, you typically define serializers to convert your Django models to JSON format, and then create views to handle the API requests and responses
+#Overall, CRUD operations by API in Django are a common way to interact with data in a database, and the Django REST framework provides a powerful and flexible way to build APIs that support these operations.
